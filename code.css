@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.btn{
+    position: fixed;
+    right: 050;
+    padding: 0.4rem;
+    width: 4rem;
+    background: silver;
+    color:black;
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    outline: none;
+    cursor: pointer;
+    height: 80%;
+}
+.btn:hover{
+    color: gold;
+    background: black;
+}
+.head{
+    background-image: url("tex.jpg");
+    height: 10vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: lawngreen;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    letter-spacing: 50px;
+}
+.main-editor{
+    background: rgba(0,0,0,0.91);
+    display: flex;
+    width: 100%;
+    padding: 1rem;
+    box-shadow: 0 2px 3px black;
+    position: fixed;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    border: 7px solid #363872;
+}
+.first{
+    background-color: #ffffff;
+    width: 50%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    white-space: pre;
+    box-shadow: 0 1px 1px rgb(22,22,22);
+    outline: groove;
+    padding: 0.4rem;
+    height: 80vh;
+}
+.second{
+    background-color: rgb(255, 255, 255);
+    width: 45%;
+    overflow-y: auto;
+    overflow-x: pre;
+    right: 0;
+    box-shadow: 0 1px 1px rgb(22,22,22);
+    padding: 0.4rem;
+    height: 80vh;
+}
